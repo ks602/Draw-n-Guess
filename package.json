@@ -1,0 +1,25 @@
+{
+  "name": "socket_drawnguess",
+  "version": "1.0.0",
+  "description": "Draw and guess game",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ks602/Draw-n-Guess.git"
+  },
+  "author": "Ks602",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ks602/Draw-n-Guess/issues"
+  },
+  "homepage": "https://github.com/ks602/Draw-n-Guess#readme"
+}
