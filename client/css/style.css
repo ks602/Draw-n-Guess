@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Baloo 2', cursive;
+}
+
+body {
+  background: #FAD0C9FF;
+}
+
+.card {
+  width: 30vw;
+  height: 26vh;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  top: 150px;
+  background-color: #B1624EFF;
+}
+
+form {
+  margin: 15px 10px;
+}
+
+.btn {
+  font-size: 15px;
+  display: block;
+  width: 200px;
+  margin: 25px auto;
+  padding: 5px;
+  border: 1px #FC766AFF;
+  border-radius: 5px;
+  background-color: #D4B996FF;
+  outline: none;
+  cursor: pointer;
+}
+
+.login {
+  margin: 10px;
+  font-size: 35px;
+}
+
+input[type="text"] {
+  padding: 3px;
+  margin-left: 3px;
+  border-radius: 3px;
+  border: 1px #D4B996FF solid;
+  outline: none;
+}
+
+.container {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  top: 50px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: lightgray;
+}
+
+#member {
+  width: 230px;
+  height: 500px;
+  background-color: lightgoldenrodyellow;
+  position: relative;
+  border: 0px;
+  border-radius: 7px 0px 0px 7px;
+  padding: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+li {
+  list-style-type: none;
+}
+
+.partiCard {
+  height: 50px;
+  margin: 3px auto;
+  background-color: lightgreen;
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(147, 156, 10, 0.61);
+  border-radius: 5px;
+}
