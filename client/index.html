@@ -12,12 +12,14 @@
 <body>
   <div class="card">
     <span class="login">Login</span>
-    <form action="">
+    <form id="loginForm">
       <label for="username">Enter a Username: </label>
       <input type="text" name="username" placeholder="Username" required autofocus>
+      <div id="errorMsg">This login is already used by another user!</div>
       <button type="submit" class="btn">Submit</button>
     </form>
   </div>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
