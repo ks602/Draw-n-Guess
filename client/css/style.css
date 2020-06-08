@@ -169,6 +169,14 @@ canvas {
   padding-left: 5px;
 }
 
+#chatList .selfChat {
+  background-color: rgb(233, 213, 36);
+}
+
+#chatList .joinChat {
+  background-color: gainsboro;
+}
+
 #chatInput {
   width: 90%;
   border-radius: 10px;

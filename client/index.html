@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <script src="/socket.io/socket.io.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,7 +15,7 @@
     <span class="login">Login</span>
     <form id="loginForm">
       <label for="username">Enter a Username: </label>
-      <input type="text" name="username" placeholder="Username" required autofocus>
+      <input type="text" name="username" placeholder="Username" required autofocus autocomplete="false">
       <div id="errorMsg">This login is already used by another user!</div>
       <button type="submit" class="btn">Submit</button>
     </form>

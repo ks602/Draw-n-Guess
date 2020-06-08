@@ -7,6 +7,7 @@
   <title>Document</title>
   <link href="https://use.fontawesome.com/releases/v5.12.1/css/svg-with-js.css" rel="stylesheet" />
   <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" data-auto-add-css="false"></script>
+  <script src="/socket.io/socket.io.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -15,42 +16,10 @@
   <div class="container">
     <div id="member">
       <ul id="memberList">
-        <li class="partiCard">
-          <div>Userasfdsfasfadsfsdafsadfsffsdname</div>
-        </li>
-        <li class="partiCard">
-          <div>Username1</div>
-        </li>
-        <li class="partiCard">
-          <div>Username2</div>
-        </li>
-        <li class="partiCard">
-          <div>Username3</div>
-        </li>
-        <li class="partiCard">
+        <!-- Participant example -->
+        <!-- <li class="partiCard">
           <div>Username</div>
-        </li>
-        <li class="partiCard">
-          <div>Username</div>
-        </li>
-        <li class="partiCard">
-          <div>Username</div>
-        </li>
-        <li class="partiCard">
-          <div>Username</div>
-        </li>
-        <li class="partiCard">
-          <div>Username</div>
-        </li>
-        <li class="partiCard">
-          <div>Username</div>
-        </li>
-        <li class="partiCard">
-          <div>Username</div>
-        </li>
-        <li class="partiCard">
-          <div>Username</div>
-        </li>
+        </li> -->
       </ul>
     </div>
     <div id="canvas">
@@ -58,20 +27,11 @@
     </div>
     <div id="chat">
       <div id="chatList">
-        <div>asdfsdfsdfssd</div>
-        <div>asdfsdfsdfssd</div>
-        <div>asdfsdfsdfssd</div>
-        <div>asdfsdfsdfssd</div>
-        <div>asdfsdfsdfssd</div>
-        <div>asdfsdfsdfssd</div>
-        <div>asdfsdfsdfssd</div>
-        <div>asdfsdfsdfssd</div>
-        <div>asdfsdfsdfssd</div>
-        <div>asdfsdfsdfssd</div>
-        <div>asdfsdfsdfssd</div>
+        <!-- Chat Example -->
+        <!-- <div>chat</div> -->
       </div>
       <form id="chatForm" method="POST">
-        <input type="text" id="chatInput" placeholder="Guess...">
+        <input type="text" id="chatInput" placeholder="Guess..." autocomplete="off">
         <button type="submit"><i class="fas fa-paper-plane"></i></button>
       </form>
     </div>
